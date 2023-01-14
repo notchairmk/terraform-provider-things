@@ -1,8 +1,9 @@
-module github.com/hashicorp/terraform-provider-scaffolding
+module github.com/hashicorp/terraform-provider-things
 
 go 1.18
 
 require (
+	github.com/gofrs/uuid v4.3.1+incompatible
 	github.com/hashicorp/terraform-plugin-docs v0.13.0
 	github.com/hashicorp/terraform-plugin-log v0.7.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.24.1
