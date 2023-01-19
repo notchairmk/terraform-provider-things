@@ -79,5 +79,5 @@ func resourceScaffoldingDelete(ctx context.Context, d *schema.ResourceData, meta
 	// use the meta value to retrieve your client from the provider configure method
 	// client := meta.(*apiClient)
 
-	return diag.Errorf("not implemented")
+	return nil
 }
